@@ -1,3 +1,4 @@
+[![Daily GitHub Commit](https://github.com/eDDie-05/Alpha/actions/workflows/daily-commit.yml/badge.svg)](https://github.com/eDDie-05/Alpha/actions/workflows/daily-commit.yml)
 # Python Learning Guide
 
 A beginner-friendly collection of Python lessons, examples, and practice ideas. The goal is to help new programmers learn the language one topic at a time.
