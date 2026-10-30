@@ -1,200 +1,65 @@
-# Python beggining
+# Python Learning Guide
 
-A collection of **Python programming tutorials, examples, and exercises** designed to help beginners learn Python step by step.
+A beginner-friendly collection of Python lessons, examples, and practice ideas. The goal is to help new programmers learn the language one topic at a time.
 
-## Topics Covered
+## What you can learn
 
-### 1. Python Basics
-
-* Introduction to Python
-* Installing Python
-* Writing your first Python program
-* Running Python programs
-* Comments
-
-### 2. Variables and Data Types
-
-* Variables
-* Strings
-* Integers
-* Floats
-* Booleans
-* Type conversion
-
-### 3. Input and Output
-
-* `print()`
-* `input()`
-* Formatting output
-* User input
-
-### 4. Operators
-
-* Arithmetic operators
-* Comparison operators
-* Logical operators
-* Assignment operators
-
-### 5. Conditional Statements
-
-* `if`
-* `elif`
-* `else`
-* Nested conditions
-
-### 6. Loops
-
-* `for` loops
-* `while` loops
-* `break`
-* `continue`
-* Nested loops
-
-### 7. Functions
-
-* Creating functions
-* Parameters
-* Arguments
-* Return values
-* Default parameters
-
-### 8. Data Structures
-
-* Lists
-* Tuples
-* Sets
-* Dictionaries
-
-### 9. Strings
-
-* String indexing
-* String slicing
-* String methods
-* String formatting
-
-### 10. File Handling
-
-* Creating files
-* Reading files
-* Writing files
-* Appending data
-* Working with file paths
-
-### 11. Error Handling
-
-* Exceptions
-* `try`
-* `except`
-* `finally`
-* Custom errors
-
-### 12. Object-Oriented Programming
-
-* Classes
-* Objects
-* Constructors
-* Methods
-* Inheritance
-
-### 13. Modules and Packages
-
-* Importing modules
-* Creating modules
-* Using packages
-* Installing packages with `pip`
+1. **Getting started** — what Python is, installing it, and running a first program.
+2. **Variables and data types** — strings, integers, decimals, booleans, and type conversion.
+3. **Input and output** — reading information with `input()` and displaying results with `print()`.
+4. **Operators** — arithmetic, comparison, logical, and assignment operators.
+5. **Decisions** — using `if`, `elif`, and `else`.
+6. **Loops** — repeating instructions with `for` and `while`.
+7. **Functions** — organising code into reusable blocks.
+8. **Data structures** — lists, tuples, sets, and dictionaries.
+9. **Strings** — indexing, slicing, formatting, and common string methods.
+10. **Files and errors** — reading and writing files and handling exceptions.
+11. **Object-oriented programming** — classes, objects, methods, and inheritance.
+12. **Modules and packages** — importing and reusing code.
 
 ## Example
 
 ```python
 name = input("Enter your name: ")
-
 print(f"Hello, {name}!")
-```
-
-## Project Structure
-
-```text
-python-tutorials/
-│
-├── 01-basics/
-├── 02-variables/
-├── 03-input-output/
-├── 04-operators/
-├── 05-conditions/
-├── 06-loops/
-├── 07-functions/
-├── 08-data-structures/
-├── 09-strings/
-├── 10-file-handling/
-├── 11-error-handling/
-├── 12-oop/
-├── 13-modules/
-└── README.md
 ```
 
 ## Requirements
 
-* Python 3
-* A code editor such as VS Code
-* Basic computer knowledge
+- Python 3
+- A code editor, such as Visual Studio Code
+- A terminal or command prompt
 
-Check your Python installation:
-
-```bash
-python3 --version
-```
-
-## Running a Tutorial
-
-Navigate to a tutorial folder and run:
+Check that Python is installed:
 
 ```bash
-python3 main.py
+python --version
 ```
 
-## Beginner Projects
+On some systems, use `python3 --version`.
 
-After completing the tutorials, you can practice by building:
+## Running a lesson
 
-* Calculator
-* Number Guessing Game
-* Quiz Game
-* To-Do List
-* Student Management System
-* Contact Management System
-* Tic-Tac-Toe
-* Snake Game
-* Tetris
-* Expense Tracker
+Open the folder containing a lesson and run its Python file. For example:
 
-## Learning Objectives
+```bash
+python main.py
+```
 
-By completing these tutorials, you should be able to:
+Use `python3 main.py` if that is the command for your system. The exact file name may differ between lesson folders.
 
-* Understand Python fundamentals
-* Write and run Python programs
-* Work with data structures
-* Create reusable functions
-* Handle files and errors
-* Understand object-oriented programming
-* Build small practical applications
+## Practice project ideas
 
-## Future Improvements
+After learning the basics, try building a calculator, number guessing game, quiz, to-do list, contact manager, or expense tracker.
 
-* Add more examples
-* Add coding exercises
-* Add beginner projects
-* Add advanced Python topics
-* Add database tutorials
-* Add web development tutorials
-* Add automation projects
-* Add data analysis tutorials
+## Learning goals
 
-## eDDie
-**Python Tutorials**
+By working through the material, learners can practise writing Python code, using common data types, controlling program flow, creating functions, and organising small programs.
 
-Created for learning and practicing Python programming.
+## Project status
 
-## License
+This repository is a learning resource. Lesson coverage and examples may grow over time. Check the files in the repository for the material currently available.
 
-This project is intended for educational purposes.
+## Author
+
+Created by **eDDie** for Python learning and practice.
